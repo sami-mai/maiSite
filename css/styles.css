@@ -1,0 +1,68 @@
+#heading {
+  margin: 0px;
+  background-color: #e7b359;
+}
+
+a {
+  color: #e7b359;
+}
+
+#top-social-links {
+  float: right;
+}
+
+#home {
+  padding-left: 150px;
+  padding-bottom: 30px;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+#about {
+  color: #3A513C;
+  background-image: url("../images/manavo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.txt-bg {
+  background-color: #ffffff78;
+  padding: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+/*#about p {
+  text-shadow: 1px 1px black;
+}*/
+
+#contact {
+  color: #3A513C;
+  background-color: #e7b359;
+}
+
+.card {
+  background-color: #B9C8BC;
+  border-radius: 2px;
+  box-shadow: 1px 1px black;
+  text-shadow: 1px 1px black;
+  color: white;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 20px;
+  max-width: 80vw;
+  padding: 20px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #000000;
+  color: #e7b359;
+  padding: 20px;
+  text-align: center;
+}
