@@ -1,0 +1,75 @@
+body {
+  background-color: #e7b359;
+}
+
+header {
+  background-color: #000000;
+  color: #e7b359;
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#home {
+  padding: 140px;
+  padding-left: 150px;
+  padding-bottom: 130px;
+  margin: 0px;
+}
+
+#backimage {
+  height: 220px;
+  width: 350px;
+  float: right;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+
+.bkgd {
+  padding: 25px;
+}
+
+#funimage {
+  height: 220px;
+  width: 350px;
+  float: left;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+
+#about {
+  color: #3A513C;
+  /* background-image: url("../images/manavo.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 25px;
+  padding-bottom: 45px;
+  margin: auto;
+}
+
+.txt-bg {
+  background-color: #ffffff78;
+  padding: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 350px;
+  width: 70%;
+  margin-left: 150px;
+}
+
+#txt-bg {
+  background-color: #ffffff78;
+  padding: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 350px;
+  width: 70%;
+  margin-left: 150px;
+}
+
+footer {
+  color: #000000;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
