@@ -1,8 +1,8 @@
 var backImage = document.getElementById('backimage');
 var funImage = document.getElementById('funimage');
-var bgtxt = document.getElementById('txt-bg');
+var bgtxt = document.getElementByClassName('txt-bg');
 
-backImage.onmouseover = function() {
+backImage.ondblclick = function() {
   var mySrc = backImage.getAttribute('src');
   if (mySrc === 'assets/images/globe.jpg') {
     backImage.setAttribute('src', 'assets/images/iffel.jpg');
@@ -20,11 +20,10 @@ funImage.onmouseover = function() {
   }
 }
 
-bgtxt.ondblclick = function() {
-  var textbg = bgtxt.style.backgroundColor;
-  if (textbg == '#ffffff78') {
-    textbg = 'red';
+bgtxt.onmouseover = function() {
+  if (bgtxt.style.backgroundColor = '#ffffff78') {
+    bgtxt.style.backgroundColor = 'teal';
   } else {
-    textbg = '#ffffff78';
+    bgtxt.style.backgroundColor = '#ffffff78';
   }
 }
